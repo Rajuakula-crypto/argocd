@@ -6,9 +6,9 @@ metadata :
 spec :
   replicas : 3
   selector :
-   matchLables :
+    matchLabels :
       app : swiggy
-   template :
+  template :
       metadata :
         labels :
           app : swiggy
